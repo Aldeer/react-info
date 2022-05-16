@@ -1,6 +1,6 @@
 function Noticia() {
-    const noticia ={
-        titulo: 'Noticias',
+    const noticia = {
+        titulo: 'Curso React 2022',
         descripcion: 'Esta es mi primer pagina con react'
     }
     const {titulo, descripcion} = noticia;
