@@ -1,16 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
-import Noticia from './components/Noticias';
 
-function App() {
+//react funcional
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <Noticia/>
+    <div>
+      <h1>Hola Mundo</h1>
     </div>
   );
 }
-
 export default App;
