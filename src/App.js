@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 
 //react funcional
 const App = () => {
