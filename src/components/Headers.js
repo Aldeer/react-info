@@ -1,6 +1,7 @@
 import React,{Component, Fragment} from 'react';
+import '../styles/Headers.css'
 
-class CreateForm extends Component {
+class Headers extends Component {
     constructor(props){
         super(props);
         this.state={
@@ -10,9 +11,12 @@ class CreateForm extends Component {
     render(){
         return(
             <Fragment>
+                <nav>
+                    <p className='header'>React &amp; Material-UI Sample Application </p>
+                </nav>
             </Fragment>
         );
     }
 }
 
-export default CreateForm;
+export default Headers;

@@ -1,23 +1,19 @@
-import React, { Component, Fragment } from 'react';
-import CardComponent from '../components/CardComponent';
-import CreateForm from '../components/CreateForm';
-import Header from '../components/Header';
+import React,{Component, Fragment} from 'react';
+import Headers from '../components/Headers';
+import Cards from '../components/Cards';
 
-class HomePage extends Component {
+class HomePage extends Component{
     constructor(props){
         super(props);
         this.state={
-            form:{
-                titulo:"Emanuel"
-            }
+
         }
     }
     render(){
         return(
             <Fragment>
-                <Header></Header>
-                <CreateForm></CreateForm>
-                <CardComponent titulo={this.state.form.titulo}></CardComponent>
+                <Headers/>
+                <Cards/>
             </Fragment>
         );
     }
