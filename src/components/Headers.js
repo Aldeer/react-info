@@ -1,6 +1,7 @@
 import React,{Component, Fragment} from 'react';
 import '../styles/Headers.css'
 
+
 class Headers extends Component {
     constructor(props){
         super(props);
@@ -11,9 +12,9 @@ class Headers extends Component {
     render(){
         return(
             <Fragment>
-                <nav>
+                <div className='block'>
                     <p className='header'>React &amp; Material-UI Sample Application </p>
-                </nav>
+                </div>
             </Fragment>
         );
     }

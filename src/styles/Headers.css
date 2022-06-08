@@ -1,8 +1,10 @@
-nav{
-    background: #646FD4;
-    padding: 5px;
+.block{
+    display: block;
+    background: #3D84A8;
 }
 .header{
-    color: #ffffff;
-    margin-left: 10px;
+    color: #FCFFE7;
+    font-size: 25px;
+    padding: 10px 30px;
+    box-shadow: 0px 10px 5px #2d6d8d;
 }
