@@ -13,9 +13,11 @@
     }
 
     .contenedor-enlace{
+        display: flex;
+        flex-flow: column wrap;
         border-radius: 2px;
         background: #2d6d8d;
-        align-content: flex-end;
+        align-items: center;
     }
 
     .enlace-color{

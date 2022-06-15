@@ -1,6 +1,7 @@
 import React,{Component, Fragment} from 'react';
-import Headers from '../components/Headers';
-import Cards from '../components/Cards';
+import NavBar from '../components/NavBar';
+import Noticia from '../components/Noticia'
+
 
 class HomePage extends Component{
     constructor(props){
@@ -12,8 +13,8 @@ class HomePage extends Component{
     render(){
         return(
             <Fragment>
-                <Headers/>
-                <Cards/>
+                <NavBar></NavBar>
+                <Noticia></Noticia>
             </Fragment>
         );
     }
